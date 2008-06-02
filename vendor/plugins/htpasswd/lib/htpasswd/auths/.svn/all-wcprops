@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/auths
+END
+digest.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/auths/digest.rb
+END
+basic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/auths/basic.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/auths/base.rb
+END

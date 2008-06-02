@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="jp" lang="jp">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Rails Plugin DB</title>
+    <%= stylesheet_link_tag 'scaffold', 'star_rating' %>
+    <%= javascript_include_tag :all %>
+    <%= auto_discovery_link_tag(:rss, :controller => 'rss', :action => 'index') %>
+  </head>
+  <body>
+    <h1><%=link_to('Rails Plugin DB', :controller => "homes", :action => "index")%></h1>
+    <div id="container">
+      <div id="contents">
+        <%- if flash[:notice].to_s != "" -%>
+        <script type="text/javascript">
+          setTimeout(function() {Effect.BlindUp('flashNotice')}, 1800);
+        </script>
+      
+        <div id="flashNotice">
+          <p style="color: green"><%= flash[:notice] %></p>
+        </div>
+        <%- flash[:notive] == "" -%>
+        <%- end -%>
+
+<%= yield %>
+
+      </div>
+
+      <div id="sub_contents">
+        <ul id="navigation">
+          <li id="new_item"><%= link_to 'プラグインを登録する', new_home_path %></li>
+          <li><%= link_to("リスト表示", {:controller => "homes", :action => "index"}) %></li>
+        </ul>
+
+      </div>
+    </div>
+  </body>
+</html>

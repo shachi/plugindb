@@ -1,0 +1,2 @@
+<%= check_box_tag('show_flag', "1", item.flags,
+  {:onclick => remote_function(:update => "flag_#{item.id}", :url => {:action => :flag_switch, :id => item.id })})%>

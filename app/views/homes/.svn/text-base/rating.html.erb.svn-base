@@ -1,0 +1,10 @@
+<dl id="result">
+<%= render :partial => 'item', :collection => @items %>
+</dl>
+<%- if @items.next_page? -%>
+<div id="more">
+  <%= render :partial => 'rating_more', :locals => { :current_page => @current_page } %>
+</div>
+<%- else -%>
+<div id="more">&nbsp;</div>
+<%- end -%>

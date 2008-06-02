@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="jp" lang="jp">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Rails Plugin DB</title>
+    <%= stylesheet_link_tag 'scaffold', 'star_rating' %>
+    <%= javascript_include_tag :all %>
+    <%= auto_discovery_link_tag(:rss, :controller => 'rss', :action => 'index') %>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-711338-3");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+  </head>
+  <body>
+    <h1><%=link_to('Rails Plugin DB', :controller => "homes", :action => "index")%></h1>
+    <div id="container">
+      <div id="contents">
+        <%- if flash[:notice].to_s != "" -%>
+        <script type="text/javascript">
+          setTimeout(function() {Effect.BlindUp('flashNotice')}, 1800);
+        </script>
+      
+        <div id="flashNotice">
+          <p style="color: green"><%= flash[:notice] %></p>
+        </div>
+        <%- flash[:notive] == "" -%>
+        <%- end -%>
+
+<%= yield %>
+
+      </div>
+
+      <div id="sub_contents">
+        <ul id="navigation">
+          <li id="new_item"><%= link_to 'プラグインを登録する', new_home_path %></li>
+          <li><%= link_to_remote_fu("リストの再表示", {:url => homes_path, :method => 'get'}) %></li>
+          <li><%= link_to_remote_fu("レート順に並び替え", {:url => rating_path, :method => 'get'}) %></li>
+        </ul>
+
+        <h2>検索</h2>
+        <%= text_field_tag("search_text", nil, {:id => "search_text"}) %>
+        <%= observe_field "search_text", :with => "search_text", :frequency => 0.5,
+          :url => { :controller => "homes", :action => "search" }, :on => "changed" %>
+
+        <h2>Tags</h2>
+        <%= tag_lists %>
+      </div>
+    </div>
+  </body>
+</html>

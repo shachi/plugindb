@@ -1,0 +1,1 @@
+<%= link_to_remote_fu 'more...', :url => {:action => 'index', :next_page => current_page + 1} %>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/test
+END
+normalize_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/test/normalize_test.rb
+END
+status_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/test/status_test.rb
+END
+open_id_authentication_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/test/open_id_authentication_test.rb
+END

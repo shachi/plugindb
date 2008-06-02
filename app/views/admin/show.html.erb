@@ -1,0 +1,47 @@
+<h2><%=h @item.name %></h2>
+<dl>
+  <dt><b>Tag</b></dt>
+  <dd>
+    <%- @item.tags.each do |tag| -%>
+      <%=link_to(h(tag)) %>&nbsp;
+    <%- end -%>
+  </dd>
+  <dt><b>RailsVer.</b></dt>
+  <dd>
+    <%- @item.linkver.each do |id| -%>
+      <%= id.vers.name %>&nbsp;
+    <%- end -%>
+  </dd>
+  <dt><b>Test環境</b></dt>
+  <dd>
+    <%- @item.linkosmodel.each do |id| -%>
+      <%= id.osmodel.name %>&nbsp;
+    <%- end -%>
+  </dd>
+  <dt><b>rating</b></dt>
+  <dd>
+    <ul class="star-rating small-star">
+    	<li class="current-rating" style="width:<%= @item.rate %>%;"><%= @item.rate %></li>
+      <li><span title="1 star out of 5" class="one-star">1</span></li>
+      <li><span title="2 stars out of 5" class="two-stars">2</span></li>
+      <li><span title="3 stars out of 5" class="three-stars">3</span></li>
+      <li><span title="4 stars out of 5" class="four-stars">4</span></li>
+      <li><span title="5 stars out of 5" class="five-stars">5</span></li>
+    </ul>
+    <%= @item.rate %>/100 <%= @item.rating.size %>人 評価
+  </dd>
+  <dt><b>plugin url(download url)</b></dt>
+  <dd><%=link_to(h(@item.urls), @item.urls) %></dd>
+  <%- if @item.homeurl != nil -%>
+  <dt><b>webpage url(あれば..)</b></dt>
+  <dd><%=link_to(h(@item.homeurl), @item.homeurl) %></dd>
+  <%- end -%>
+  <dt><b>短い説明</b></dt>
+  <dd><%=h @item.s_description %></dd>
+  <dt><b>説明文</b></dt>
+  <dd><%=simple_format(@item.description) %></dd>
+</dl>
+
+<%= link_to '編集', edit_admin_path(@item) %>&nbsp;|&nbsp;
+<%= link_to '削除', {:action => "destroy", :id => @item}, :confirm => '本当に良い?', :method => :delete %>&nbsp;|&nbsp;
+<%= link_to '最新一覧へ', :action => "index" %>

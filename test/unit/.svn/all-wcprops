@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/16/trunk/test/unit
+END
+item_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/test/unit/item_test.rb
+END
+vers_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/16/trunk/test/unit/vers_test.rb
+END
+linkosmodel_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/16/trunk/test/unit/linkosmodel_test.rb
+END
+osmodel_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/16/trunk/test/unit/osmodel_test.rb
+END
+rating_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/test/unit/rating_test.rb
+END
+linkver_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/16/trunk/test/unit/linkver_test.rb
+END

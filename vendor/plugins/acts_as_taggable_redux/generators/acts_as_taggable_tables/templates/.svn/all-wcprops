@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/generators/acts_as_taggable_tables/templates
+END
+migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/generators/acts_as_taggable_tables/templates/migration.rb
+END

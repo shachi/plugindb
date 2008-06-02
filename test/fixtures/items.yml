@@ -1,0 +1,28 @@
+# == Schema Information
+# Schema version: 10
+#
+# Table name: items
+#
+#  id            :integer       not null, primary key
+#  name          :string(255)   not null
+#  description   :text          not null
+#  ver           :string(255)   
+#  conf          :string(255)   
+#  urls          :string(255)   
+#  s_description :string(255)   
+#  created_at    :datetime      
+#  updated_at    :datetime      
+#  rate          :integer       default(0), not null
+#  flags         :boolean       not null
+#  homeurl       :string(255)   
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  created_at: 2007-07-24 19:38:56
+  updated_at: 2007-07-24 19:38:56
+two:
+  id: 2
+  created_at: 2007-07-24 19:38:56
+  updated_at: 2007-07-24 19:38:56

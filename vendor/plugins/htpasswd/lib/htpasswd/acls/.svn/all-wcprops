@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls
+END
+htpasswd.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls/htpasswd.rb
+END
+digest.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls/digest.rb
+END
+plain.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls/plain.rb
+END
+active_record.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls/active_record.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls/base.rb
+END
+crypted.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls/crypted.rb
+END
+htdigest.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/lib/htpasswd/acls/htdigest.rb
+END

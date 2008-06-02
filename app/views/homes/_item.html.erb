@@ -1,0 +1,12 @@
+  <dt><%=link_to(h(item.name), :action => 'show', :id => item) %></dt>
+  <dd>
+    <div class="tag_box">
+    <% item.tags.each do |tag| -%>
+      <%=link_to_remote_fu( h(tag), :url => {:action => 'tag', :id => tag.name}) %>&nbsp;
+    <% end -%>
+    </div>
+    <%= render :partial => 'star', :locals => {:item => item } %>
+  	<div class="s_description_box">
+      <%=simple_format(h(item.s_description)) %>
+    </div>
+  </dd>

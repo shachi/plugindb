@@ -1,0 +1,58 @@
+8
+
+dir
+47
+https://railsplugindb.googlecode.com/svn/trunk/vendor/plugins/annotate_models
+https://railsplugindb.googlecode.com/svn
+
+
+
+2007-07-26T14:05:01.035500Z
+1
+shachikk
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+81035ca1-2936-0410-9abd-759f811b91dd
+
+tasks
+dir
+
+lib
+dir
+
+ChangeLog
+file
+
+
+
+
+2008-02-06T10:16:07.000000Z
+d6d7c4ec7466a950da7647f0fba5240c
+2007-07-26T14:05:01.035500Z
+1
+shachikk
+
+README
+file
+
+
+
+
+2008-02-06T10:16:07.000000Z
+1584d33a28eca3bccb7ae644600aaef0
+2007-07-26T14:05:01.035500Z
+1
+shachikk
+

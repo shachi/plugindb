@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/16/trunk/test/fixtures
+END
+vers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/16/trunk/test/fixtures/vers.yml
+END
+items.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/trunk/test/fixtures/items.yml
+END
+osmodel.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/16/trunk/test/fixtures/osmodel.yml
+END
+linkosmodels.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/16/trunk/test/fixtures/linkosmodels.yml
+END
+ratings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/6/trunk/test/fixtures/ratings.yml
+END
+linkvers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/16/trunk/test/fixtures/linkvers.yml
+END

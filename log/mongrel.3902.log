@@ -1,0 +1,30 @@
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3902.pid and log/mongrel.3902.log for info.
+** Starting Mongrel listening at 0.0.0.0:3902
+** Starting Rails with development environment...
+
+      *******************************************************************
+      * config.breakpoint_server has been deprecated and has no effect. *
+      *******************************************************************
+      
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3902
+** Writing PID file to tmp/pids/mongrel.3902.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3902.pid and log/mongrel.3902.log for info.
+** Starting Mongrel listening at 0.0.0.0:3902
+** Starting Rails with development environment...
+
+      *******************************************************************
+      * config.breakpoint_server has been deprecated and has no effect. *
+      *******************************************************************
+      
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3902
+** Writing PID file to tmp/pids/mongrel.3902.pid
+** TERM signal received.

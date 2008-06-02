@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/lib
+END
+tagging.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/lib/tagging.rb
+END
+acts_as_taggable_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/lib/acts_as_taggable_helper.rb
+END
+acts_as_taggable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/lib/acts_as_taggable.rb
+END
+acts_as_tagger.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/lib/acts_as_tagger.rb
+END
+tag.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/lib/tag.rb
+END

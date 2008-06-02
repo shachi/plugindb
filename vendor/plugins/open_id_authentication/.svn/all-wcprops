@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/Rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/init.rb
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/CHANGELOG
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/README
+END

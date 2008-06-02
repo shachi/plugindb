@@ -1,0 +1,57 @@
+<h1>新規作成</h1>
+<% form_tag({ :action => "create" }, {:method => "post"}) do %>
+<dl>
+  <dt><b>Name</b></dt>
+  <dd>
+    <%= text_field(:item, :name) %>
+    <%= error_message_on :item, :name %>
+  </dd>
+  <dt><b>Tag</b></dt>
+  <dd>
+    <%= text_field(:item, :tag_list, {:value => @item.tag_list, :id => "tagged"}) %>
+    <%= tag_input %>
+  </dd>
+  <dt><b>RailsVer.</b></dt>
+  <dd>
+    <%- @vers.each do |ver| -%>
+      <%= check_box_tag("ver[]", ver.id, if params[:ver] then params[:ver].include?(ver.id.to_s) else nil end, {:id=>"ver_#{ver.id}"})%>
+      <%= ver.name %>
+    <%- end -%>
+  </dd>
+  <dt><b>Test環境</b></dt>
+  <dd>
+    <%- @osmodels.each do |os| -%>
+      <%= check_box_tag("os[]", os.id, if params[:os] then params[:os].include?(os.id.to_s) else nil end, {:id=>"os_#{os.id}"})%>
+      <%= os.name %>
+    <%- end -%>
+  </dd>
+  <dt><b>plugin url(download url)</b></dt>
+  <dd>
+    <%= text_field(:item, :urls) %>
+    <%= error_message_on :item, :urls %>
+  </dd>
+  <dt><b>webpage url(あれば..)</b></dt>
+  <dd>
+    <%= text_field(:item, :homeurl) %>
+  </dd>
+  <dt><b>短い説明</b></dt>
+  <dd>
+    <%= text_area(:item, :s_description, :cols => 60, :rows => 2 ) %>
+    <%= error_message_on :item, :s_description %>
+  </dd>
+  <dt><b>説明文</b></dt>
+  <dd>
+    <%= text_area(:item, :description, :cols => 60, :rows => 20 ) %>
+    <%= error_message_on :item, :description %>
+  </dd>
+  <dt>
+    「kyuuji」と、入れてください。
+    <%= text_field_tag(:kyuuji, nil) %>
+  </dt>
+  <dd>
+    <%= submit_tag "作成" %>
+  </dd>
+</dl>
+<% end %>
+
+<%= link_to '戻る', homes_path %>

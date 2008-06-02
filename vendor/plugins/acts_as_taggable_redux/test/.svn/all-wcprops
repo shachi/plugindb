@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/test/test_helper.rb
+END
+tagging_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/test/tagging_test.rb
+END
+schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/test/schema.rb
+END
+acts_as_taggable_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/test/acts_as_taggable_test.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/test/database.yml
+END
+tag_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/vendor/plugins/acts_as_taggable_redux/test/tag_test.rb
+END

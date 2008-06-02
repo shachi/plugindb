@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/16/trunk/app/models
+END
+item.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/16/trunk/app/models/item.rb
+END
+vers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/16/trunk/app/models/vers.rb
+END
+linkosmodel.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/16/trunk/app/models/linkosmodel.rb
+END
+osmodel.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/16/trunk/app/models/osmodel.rb
+END
+rating.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/6/trunk/app/models/rating.rb
+END
+linkver.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/16/trunk/app/models/linkver.rb
+END

@@ -1,0 +1,371 @@
+# Logfile created on Wed Feb 06 19:24:36 +0900 2008
+
+Processing HomesController#index (for 127.0.0.1 at 2008-02-06 19:25:23) [GET]
+  Session ID: 8ba9307a52876a8beb4eb5285c44a4e4
+  Parameters: {"action"=>"index", "controller"=>"homes"}
+
+
+Processing HomesController#index (for 127.0.0.1 at 2008-02-06 19:25:23) [GET]
+  Session ID: 8ba9307a52876a8beb4eb5285c44a4e4
+  Parameters: {"action"=>"index", "controller"=>"homes"}
+
+
+PGError (FATAL:  database "plugindb_development" does not exist
+):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:713:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:713:in `connect'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:713:in `connect'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:237:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:23:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:23:in `postgresql_connection'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:291:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:291:in `connection='
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:259:in `retrieve_connection'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:281
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing HomesController#index (for 127.0.0.1 at 2008-02-06 19:28:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8a6d78e1edb909c80b03b8d2fbd50e9a817849f4
+  Parameters: {"action"=>"index", "controller"=>"homes"}
+  [4;36;1mSQL (0.000441)[0m   [0;1mSHOW client_min_messages[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mSHOW standard_conforming_strings[0m
+  [4;35;1mSQL (0.000086)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mPGError: ERROR: relation "items" does not exist
+: SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'items'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+
+
+ActiveRecord::StatementInvalid (PGError: ERROR:  relation "items" does not exist
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = 'items'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:150:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:395:in `query'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:836:in `column_definitions'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb:485:in `columns'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1080:in `columns'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/calculations.rb:254:in `column_for'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/calculations.rb:118:in `calculate'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/calculations.rb:46:in `count'
+    /vendor/plugins/paginating_find/lib/paginating_find.rb:62:in `find'
+    /app/controllers/homes_controller.rb:10:in `index'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:281
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing HomesController#index (for 127.0.0.1 at 2008-02-06 19:28:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8a6d78e1edb909c80b03b8d2fbd50e9a817849f4
+  Parameters: {"action"=>"index", "controller"=>"homes"}
+  [4;36;1mSQL (0.000361)[0m   [0;1mSHOW client_min_messages[0m
+  [4;35;1mSQL (0.000113)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mSHOW standard_conforming_strings[0m
+  [4;35;1mSQL (0.000075)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.003178)[0m   [0;1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'items'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSHOW max_identifier_length[0m
+  [4;36;1mSQL (0.000640)[0m   [0;1mSELECT count(items.id) AS count_items_id FROM items WHERE (flags = true) [0m
+Rendering template within layouts/homes
+Rendering homes/index
+  [4;35;1mItem Load (0.000678)[0m   [0mSELECT * FROM items WHERE (flags = true) ORDER BY created_at desc LIMIT 10 OFFSET 0[0m
+  [4;36;1mSQL (0.000625)[0m   [0;1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'taggings'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;35;1mTag Load (0.001231)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 19)) [0m
+  [4;36;1mSQL (0.000445)[0m   [0;1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'tags'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;35;1mSQL (0.000504)[0m   [0m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'ratings'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;36;1mSQL (0.000320)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 19) [0m
+Rendered homes/_star (0.01417)
+Rendered homes/_item (0.03106)
+  [4;35;1mTag Load (0.000355)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 18) [0m
+Rendered homes/_star (0.00520)
+Rendered homes/_item (0.01042)
+  [4;35;1mTag Load (0.000357)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 17)) [0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 17) [0m
+Rendered homes/_star (0.00423)
+Rendered homes/_item (0.00623)
+  [4;35;1mTag Load (0.000353)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 16) [0m
+Rendered homes/_star (0.00424)
+Rendered homes/_item (0.00805)
+  [4;35;1mTag Load (0.000347)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 15)) [0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 15) [0m
+Rendered homes/_star (0.00428)
+Rendered homes/_item (0.00710)
+  [4;35;1mTag Load (0.000350)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 14) [0m
+Rendered homes/_star (0.00423)
+Rendered homes/_item (0.00803)
+  [4;35;1mTag Load (0.000345)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 13)) [0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 13) [0m
+Rendered homes/_star (0.00423)
+Rendered homes/_item (0.00704)
+  [4;35;1mTag Load (0.000344)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 12)) [0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 12) [0m
+Rendered homes/_star (0.00422)
+Rendered homes/_item (0.00788)
+  [4;35;1mTag Load (0.000355)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 11)) [0m
+  [4;36;1mSQL (0.000148)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 11) [0m
+Rendered homes/_star (0.00431)
+Rendered homes/_item (0.00880)
+  [4;35;1mTag Load (0.000356)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 10)) [0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 10) [0m
+Rendered homes/_star (0.00423)
+Rendered homes/_item (0.00705)
+Rendered homes/_list_more (0.00229)
+  [4;35;1mItem Load (0.000464)[0m   [0mSELECT * FROM items WHERE (flags = true) ORDER BY created_at desc[0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 19)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 18)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 17)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 16)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 15)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 14)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 13)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 12)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 11)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 10)) [0m
+  [4;36;1mTag Load (0.000360)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 9)) [0m
+  [4;35;1mTag Load (0.000368)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 8)) [0m
+  [4;36;1mTag Load (0.000347)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 7)) [0m
+  [4;35;1mTag Load (0.000353)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 6)) [0m
+  [4;36;1mTag Load (0.000383)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 5)) [0m
+  [4;35;1mTag Load (0.000350)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 4)) [0m
+  [4;36;1mTag Load (0.000350)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 3)) [0m
+  [4;35;1mTag Load (0.000355)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 2)) [0m
+  [4;36;1mTag Load (0.000350)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 1)) [0m
+Completed in 0.18374 (5 reqs/sec) | Rendering: 0.15083 (82%) | DB: 0.01651 (8%) | 200 OK [http://localhost/]
+
+
+Processing HomesController#index (for 127.0.0.1 at 2008-02-06 20:12:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8a6d78e1edb909c80b03b8d2fbd50e9a817849f4
+  Parameters: {"action"=>"index", "controller"=>"homes"}
+  [4;36;1mSQL (0.000317)[0m   [0;1mSHOW client_min_messages[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mSHOW standard_conforming_strings[0m
+  [4;35;1mSQL (0.000059)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.002960)[0m   [0;1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'items'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;35;1mSQL (0.000084)[0m   [0mSHOW max_identifier_length[0m
+  [4;36;1mSQL (0.000514)[0m   [0;1mSELECT count(items.id) AS count_items_id FROM items WHERE (flags = true) [0m
+Rendering template within layouts/homes
+Rendering homes/index
+  [4;35;1mItem Load (0.000691)[0m   [0mSELECT * FROM items WHERE (flags = true) ORDER BY created_at desc LIMIT 10 OFFSET 0[0m
+  [4;36;1mSQL (0.000646)[0m   [0;1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'taggings'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;35;1mTag Load (0.001122)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 19)) [0m
+  [4;36;1mSQL (0.000435)[0m   [0;1m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'tags'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;35;1mSQL (0.000584)[0m   [0m SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = 'ratings'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+[0m
+  [4;36;1mSQL (0.000305)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 19) [0m
+Rendered homes/_star (0.01455)
+Rendered homes/_item (0.07498)
+  [4;35;1mTag Load (0.000359)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 18)) [0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 18) [0m
+Rendered homes/_star (0.00421)
+Rendered homes/_item (0.00880)
+  [4;35;1mTag Load (0.000326)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 17)) [0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 17) [0m
+Rendered homes/_star (0.00421)
+Rendered homes/_item (0.00615)
+  [4;35;1mTag Load (0.000340)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 16)) [0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 16) [0m
+Rendered homes/_star (0.00426)
+Rendered homes/_item (0.00810)
+  [4;35;1mTag Load (0.000332)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 15)) [0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 15) [0m
+Rendered homes/_star (0.00416)
+Rendered homes/_item (0.00691)
+  [4;35;1mTag Load (0.000339)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 14)) [0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 14) [0m
+Rendered homes/_star (0.00419)
+Rendered homes/_item (0.00795)
+  [4;35;1mTag Load (0.000333)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 13)) [0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 13) [0m
+Rendered homes/_star (0.00420)
+Rendered homes/_item (0.00700)
+  [4;35;1mTag Load (0.000348)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 12)) [0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 12) [0m
+Rendered homes/_star (0.00419)
+Rendered homes/_item (0.00779)
+  [4;35;1mTag Load (0.000340)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 11)) [0m
+  [4;36;1mSQL (0.000127)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 11) [0m
+Rendered homes/_star (0.00418)
+Rendered homes/_item (0.00859)
+  [4;35;1mTag Load (0.000332)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 10)) [0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSELECT count(*) AS count_all FROM ratings WHERE (ratings.item_id = 10) [0m
+Rendered homes/_star (0.00421)
+Rendered homes/_item (0.00695)
+Rendered homes/_list_more (0.00232)
+  [4;35;1mItem Load (0.000431)[0m   [0mSELECT * FROM items WHERE (flags = true) ORDER BY created_at desc[0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 19)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 18)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 17)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 16)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 15)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 14)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 13)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 12)) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 11)) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 10)) [0m
+  [4;36;1mTag Load (0.000363)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 9)) [0m
+  [4;35;1mTag Load (0.000332)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 8)) [0m
+  [4;36;1mTag Load (0.000332)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 7)) [0m
+  [4;35;1mTag Load (0.000332)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 6)) [0m
+  [4;36;1mTag Load (0.000330)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 5)) [0m
+  [4;35;1mTag Load (0.000336)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 4)) [0m
+  [4;36;1mTag Load (0.000331)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 3)) [0m
+  [4;35;1mTag Load (0.000332)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 2)) [0m
+  [4;36;1mTag Load (0.000332)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = E'Item') AND (taggings.taggable_id = 1)) [0m
+Completed in 0.22315 (4 reqs/sec) | Rendering: 0.19102 (85%) | DB: 0.01558 (6%) | 200 OK [http://localhost/]

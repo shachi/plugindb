@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/36/trunk/app/views/homes
+END
+_rating_more.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/32/trunk/app/views/homes/_rating_more.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/27/trunk/app/views/homes/index.html.erb
+END
+_star.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/app/views/homes/_star.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/16/trunk/app/views/homes/new.html.erb
+END
+tag.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/32/trunk/app/views/homes/tag.html.erb
+END
+_list_more.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/31/trunk/app/views/homes/_list_more.html.erb
+END
+_tag_more.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/32/trunk/app/views/homes/_tag_more.html.erb
+END
+_item.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/36/trunk/app/views/homes/_item.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/25/trunk/app/views/homes/show.html.erb
+END
+_search.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/32/trunk/app/views/homes/_search.html.erb
+END
+rating.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/32/trunk/app/views/homes/rating.html.erb
+END

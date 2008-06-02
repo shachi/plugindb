@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/lib/generators/open_id_authentication_tables/templates
+END
+migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/lib/generators/open_id_authentication_tables/templates/migration.rb
+END

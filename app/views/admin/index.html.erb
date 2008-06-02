@@ -1,0 +1,11 @@
+<dl id="result">
+<%= render :partial => 'result', :locals => {:items => @items } %>
+</dl>
+<%- if @items.next_page? -%>
+<div id="more">
+  <%= hidden_field_tag "next_page", 1 %>
+  <%= link_to_function("more...", "$('next_page').value = eval($('next_page').value) + 1;")%>
+  <%= observe_field "next_page", :with => "next_page", :frequency => 0.5,
+    :url => { :controller => "admin", :action => "more_index" }, :on => "changed" %>
+</div>
+<%- end -%>

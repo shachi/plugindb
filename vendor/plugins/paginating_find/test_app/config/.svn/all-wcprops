@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/vendor/plugins/paginating_find/test_app/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/vendor/plugins/paginating_find/test_app/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/vendor/plugins/paginating_find/test_app/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/vendor/plugins/paginating_find/test_app/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/vendor/plugins/paginating_find/test_app/config/environment.rb
+END

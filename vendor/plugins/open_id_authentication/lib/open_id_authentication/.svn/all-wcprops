@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/lib/open_id_authentication
+END
+setting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/lib/open_id_authentication/setting.rb
+END
+db_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/lib/open_id_authentication/db_store.rb
+END
+nonce.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/lib/open_id_authentication/nonce.rb
+END
+association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/18/trunk/vendor/plugins/open_id_authentication/lib/open_id_authentication/association.rb
+END

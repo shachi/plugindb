@@ -1,0 +1,38 @@
+<div id="star_<%= item.id %>">
+  <ul class="star-rating small-star">
+  	<li class="current-rating" style="width:<%= item.rate %>%;"><%= item.rate %></li>
+    <li><%= link_to_remote("1", {
+            :update => "star_#{item.id}",
+            :complete => "new Effect.Pulsate('star_#{item.id}', {duration: 0.3});",
+            :url =>
+  	        {:action => :rating_up, :id => item.id, :star => 1}},
+  	        {:title=>"1 star out of 5", :class=>"one-star"})%></li>
+    <li><%= link_to_remote("2", {
+            :update => "star_#{item.id}",
+            :complete => "new Effect.Pulsate('star_#{item.id}', {duration: 0.3});",
+            :url =>
+        		{:action => :rating_up, :id => item.id, :star => 2}},
+        		{:title=>"2 stars out of 5", :class=>"two-stars"})%></li>
+    <li><%= link_to_remote("3", {
+            :update => "star_#{item.id}",
+            :complete => "new Effect.Pulsate('star_#{item.id}', {duration: 0.3});",
+            :url =>
+            {:action => :rating_up, :id => item.id, :star => 3}},
+            {:title=>"3 stars out of 5", :class=>"three-stars"})%></li>
+    <li><%= link_to_remote("4", {
+            :update => "star_#{item.id}",
+            :complete => "new Effect.Pulsate('star_#{item.id}', {duration: 0.3});",
+            :url =>
+            {:action => :rating_up, :id => item.id, :star => 4}},
+            {:title=>"4 stars out of 5", :class=>"four-stars"})%></li>
+    <li><%= link_to_remote("5",{
+            :update => "star_#{item.id}",
+            :complete => "new Effect.Pulsate('star_#{item.id}', {duration: 0.3});",
+            :url =>
+            {:action => :rating_up, :id => item.id, :star => 5}},
+            {:title=>"5 stars out of 5", :class=>"five-stars"})%></li>
+  </ul>
+  <div class="rating_size_box">
+    <%= item.rating.size %>人 評価
+  </div>
+</div>

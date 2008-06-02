@@ -1,0 +1,85 @@
+8
+
+dir
+47
+https://railsplugindb.googlecode.com/svn/trunk/vendor/plugins/open_id_authentication
+https://railsplugindb.googlecode.com/svn
+
+
+
+2007-08-05T21:39:35.194642Z
+18
+shachikk
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+81035ca1-2936-0410-9abd-759f811b91dd
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-02-06T10:16:10.000000Z
+b66b372df8374607d104228f41a06671
+2007-08-05T21:39:35.194642Z
+18
+shachikk
+
+tasks
+dir
+
+init.rb
+file
+
+
+
+
+2008-02-06T10:16:10.000000Z
+99610ccd075fe0f092d9d66853fb98a9
+2007-08-05T21:39:35.194642Z
+18
+shachikk
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-02-06T10:16:10.000000Z
+682a434ab840b7094393865fc9cb0df0
+2007-08-05T21:39:35.194642Z
+18
+shachikk
+
+README
+file
+
+
+
+
+2008-02-06T10:16:10.000000Z
+d99b07f65d9cf20c62425414ad8fea0f
+2007-08-05T21:39:35.194642Z
+18
+shachikk
+

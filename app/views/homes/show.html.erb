@@ -1,0 +1,42 @@
+<dl id="result">
+  <dt><%=h @item.name %></dt>
+  <dd>
+    <dl>
+      <dt>Tag</dt>
+      <dd>
+        <%- @item.tags.each do |tag| -%>
+          <%=h(tag) %>&nbsp;
+        <%- end -%>
+      </dd>
+      <dt>RailsVer.</dt>
+      <dd>
+        <%- @item.linkver.each do |id| -%>
+          <%= id.vers.name %>&nbsp;
+        <%- end -%>
+      </dd>
+      <dt>Test環境</dt>
+      <dd>
+        <%- @item.linkosmodel.each do |id| -%>
+          <%= id.osmodel.name %>&nbsp;
+        <%- end -%>
+      </dd>
+      <dt>rating</dt>
+      <dd>
+        <%= render :partial => 'star', :locals => {:item => @item } %>
+      </dd>
+      <dt>plugin url(download url)</dt>
+      <dd><%= link_to(h(@item.urls), @item.urls) %></dd>
+      <%- unless @item.homeurl.blank? -%>
+      <dt>webpage url(あれば..)</dt>
+      <dd><%= link_to(h(@item.homeurl), @item.homeurl) %></dd>
+      <%- end -%>
+      <dt>短い説明</dt>
+      <dd><%=h @item.s_description %></dd>
+      <dt>説明文</dt>
+      <dd><%= simple_format(@item.description) %></dd>
+    </dl>
+  </dd>
+</dl>
+<div id="more">
+  <%= link_to '最新一覧へ', homes_path %>
+</div>

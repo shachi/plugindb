@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/test
+END
+digest_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/test/digest_test.rb
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/test/test_helper.rb
+END
+htdigest_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/test/htdigest_test.rb
+END
+htpasswd_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/vendor/plugins/htpasswd/test/htpasswd_test.rb
+END

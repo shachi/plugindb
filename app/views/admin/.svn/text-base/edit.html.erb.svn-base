@@ -1,0 +1,53 @@
+<h1>編集</h1>
+
+<%= error_messages_for :item %>
+
+<% form_tag({:action => "update"}, {:method => :put}) do %>
+<dl>
+  <dt><b>Name</b></dt>
+  <dd>
+    <%= text_field(:item, :name) %>
+  </dd>
+  <dt><b>Tag</b></dt>
+  <dd>
+    <%= text_field(:item, :tag_list, {:value => @item.tag_list, :id => "tagged"}) %>
+    <%= tag_input %>
+  </dd>
+  <dt><b>RailsVer.</b></dt>
+  <dd>
+    <%- @vers.each do |ver| -%>
+      <%= check_box_tag("ver[]", ver.id, if params[:ver] then params[:ver].include?(ver.id.to_s) else nil end, {:id=>"ver_#{ver.id}"})%>
+      <%= ver.name %>
+    <%- end -%>
+  </dd>
+  <dt><b>Test環境</b></dt>
+  <dd>
+    <%- @osmodels.each do |os| -%>
+      <%= check_box_tag("os[]", os.id, if params[:os] then params[:os].include?(os.id.to_s) else nil end, {:id=>"os_#{os.id}"})%>
+      <%= os.name %>
+    <%- end -%>
+  </dd>
+  <dt><b>plugin url(download url)</b></dt>
+  <dd>
+    <%= text_field(:item, :urls) %>
+  </dd>
+  <dt><b>webpage url(あれば..)</b></dt>
+  <dd>
+    <%= text_field(:item, :homeurl) %>
+  </dd>
+  <dt><b>短い説明</b></dt>
+  <dd>
+    <%= text_area(:item, :s_description) %>
+  </dd>
+  <dt><b>説明文</b></dt>
+  <dd>
+    <%= text_area(:item, :description) %>
+  </dd>
+  <dt>
+    <%= submit_tag "更新" %>
+  </dt>
+</dl>
+<% end %>
+
+<%= link_to '個別表示', :action => 'show', :id => @item %>&nbsp;|&nbsp;
+<%= link_to '戻る', :action => 'index' %>
